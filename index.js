@@ -1,5 +1,5 @@
 /**
- * @package cross-fetch
+ * @package node-fetch
  * @type {(function(*, *): Promise)|{Headers?: Headers, FetchError?: function(*, *, *): FetchError, Request?: Request, Response?: Response, readonly default?: function(*, *): Promise}}
  */
 const fetch = require('node-fetch')
